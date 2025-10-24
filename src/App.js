@@ -15,7 +15,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     let accountId = localStorage.getItem("_id")
-    fetch("cookie-clicker-server-production-16b0.up.railway.app/session", {
+    fetch("https://cookie-clicker-server-production-16b0.up.railway.app/session", {
       method: "POST",
       headers: {
         'Content-Type': "application/json"
@@ -37,7 +37,7 @@ class App extends React.Component {
     )
   }
   signUp(usernameInput, passwordInput, emailInput) {
-    fetch("cookie-clicker-server-production-16b0.up.railway.app/signup", {
+    fetch("https://cookie-clicker-server-production-16b0.up.railway.app/signup", {
       method: "POST",
       headers: {
         'Content-Type': "application/json"
@@ -50,7 +50,7 @@ class App extends React.Component {
     })
   }
   logIn(usernameInput, passwordInput) {
-    fetch("cookie-clicker-server-production-16b0.up.railway.app/login", {
+    fetch("https://cookie-clicker-server-production-16b0.up.railway.app/login", {
       method: "POST",
       headers: {
         'Content-Type': "application/json"

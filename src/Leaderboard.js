@@ -9,7 +9,7 @@ class Leaderboard extends React.Component {
         this.updateLeaderboard = this.updateLeaderboard.bind(this)
     }
     updateLeaderboard() {
-        fetch("cookie-clicker-server-production-16b0.up.railway.app/getLeaderboard").then(
+        fetch("https://cookie-clicker-server-production-16b0.up.railway.app/getLeaderboard").then(
             response => {
             return response.json()
         }).then( data => {
