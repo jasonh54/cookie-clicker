@@ -10,10 +10,10 @@ class LogInSignUp extends React.Component {
         }
     }
     render() {
-        let boxStyle = {
-            justifyItems: "center",
-            display: "block"
-        }
+        // let boxStyle = {
+        //     justifyItems: "center",
+        //     display: "block"
+        // }
         let formStyle = {
         
         }
@@ -22,10 +22,10 @@ class LogInSignUp extends React.Component {
             padding: "7px",
             width: "190px"
         }
-        let checkStyle = {
-            margin: "10px",
-            cursor: "pointer"
-        }
+        // let checkStyle = {
+        //     margin: "10px",
+        //     cursor: "pointer"
+        // }
         let noteStyle = {
             fontSize: "12px"
         }
