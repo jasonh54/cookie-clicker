@@ -47,7 +47,7 @@ class LogInSignUp extends React.Component {
                     <br/>
                     <input style={inputStyle} type="email" placeholder="Email" value={this.state.emailInput} onChange={(e) => {this.setState({emailInput: e.target.value})}} required/>
                     <br/>
-                    <p style={noteStyle}>By signing up, you have read and agreed to our <a href="#">Terms and Privacy</a>.</p>
+                    <p style={noteStyle}>By signing up, you have read and agreed to our Terms and Privacy.</p>
                     <input style={submitStyle} type="submit" value="Sign Up" onClick={() => {this.props.signUp(this.state.usernameInput, this.state.passwordInput, this.state.emailInput)}}/>
                 </form>
                 <hr/>
